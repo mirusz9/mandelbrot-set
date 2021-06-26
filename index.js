@@ -60,7 +60,7 @@ function iterate(a, b, origA, origB, depth) {
 	// const newB = 2 * a * b + origB;
 	//			const iterations = iterate(Math.abs(a)-.7, -b, Math.abs(a)-.7, -b, 500);
 
-	// X
+	// X (this is victors fractal)
 	// const newA = a * a * a + b * b + origA;
 	// const newB = 2 * a * b + origB;
 	// const iterations = iterate(
