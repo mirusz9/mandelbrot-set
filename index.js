@@ -1,4 +1,4 @@
-const width = 400;
+const width = 1000;
 const height = width / 2; //Math.round((width * 2) / 3);
 let posX = -2;
 let posY = -1;
@@ -33,7 +33,7 @@ function _redraw(ca, cb) {
 			// 	cb || Math.abs(b) - .4,
 			// 	500
 			//);
-			
+			/** Maybe try this 5375727072697365643F204153 */
 			//const iterations = iterate(Math.abs(a) - 0.7, -b, Math.abs(a) - 0.7, -b, 500);
 			const iterations = iterate(a, b, a, b, 500);
 			// console.log(interations);
